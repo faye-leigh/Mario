@@ -1,2 +1,2 @@
-﻿using var game = new Mario.Game1();
+﻿using var game = new Mario.Mario();
 game.Run();

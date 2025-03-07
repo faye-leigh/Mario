@@ -1,0 +1,7 @@
+# Ignore the following directories
+Mario/bin/
+Mario/obj/
+Mario/Content/obj/
+Mario/Content/bin/
+
+# Ignore the following files
