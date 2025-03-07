@@ -1,0 +1,889 @@
+{
+    "LeftMario": {
+        "x": 181,
+        "y": 0,
+        "w": 13,
+        "h": 16,
+        "path": "Mario"
+    },
+
+    "LeftRunMario1": {
+        "x": 150,
+        "y": 0,
+        "w": 14,
+        "h": 15,
+        "path": "Mario"
+    },
+
+    "LeftRunMario2": {
+        "x": 121,
+        "y": 0,
+        "w": 12,
+        "h": 16,
+        "path": "Mario"
+    },
+
+    "LeftRunMario3": {
+        "x": 89,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Mario"
+    },
+
+    "LeftTurnMario": {
+        "x": 60,
+        "y": 0,
+        "w": 14,
+        "h": 16,
+        "path": "Mario"
+    },
+
+    "LeftJumpMario": {
+        "x": 29,
+        "y": 0,
+        "w": 17,
+        "h": 16,
+        "path": "Mario"
+    },
+
+    "RightMario": {
+        "x": 211,
+        "y": 0,
+        "w": 13,
+        "h": 16,
+        "path": "Mario"
+    },
+
+    "RightRunMario1": {
+        "x": 239,
+        "y": 0,
+        "w": 14,
+        "h": 15,
+        "path": "Mario"
+    },
+
+    "RightRunMario2": {
+        "x": 272,
+        "y": 0,
+        "w": 12,
+        "h": 16,
+        "path": "Mario"
+    },
+
+    "RightRunMario3": {
+        "x": 300,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Mario"
+    },
+
+    "RightTurnMario": {
+        "x": 331,
+        "y": 0,
+        "w": 14,
+        "h": 16,
+        "path": "Mario"
+    },
+
+    "RightJumpMario": {
+        "x": 359,
+        "y": 0,
+        "w": 17,
+        "h": 16,
+        "path": "Mario"
+    },
+
+    "DeadMario": {
+        "x": 0,
+        "y": 16,
+        "w": 15,
+        "h": 14,
+        "path": "Mario"
+    },
+
+    "LeftBigMario": {
+        "x": 180,
+        "y": 52,
+        "w": 13,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "LeftRunBigMario1": {
+        "x": 150,
+        "y": 52,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "LeftRunBigMario2": {
+        "x": 121,
+        "y": 52,
+        "w": 14,
+        "h": 31,
+        "path": "Mario"
+    },
+
+    "LeftRunBigMario3": {
+        "x": 90,
+        "y": 53,
+        "w": 16,
+        "h": 30,
+        "path": "Mario"
+    },
+
+    "RightTurnBigMario": {
+        "x": 60,
+        "y": 52,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "LeftJumpBigMario": {
+        "x": 30,
+        "y": 52,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "LeftCrouchBigMario": {
+        "x": 0,
+        "y": 57,
+        "w": 16,
+        "h": 22,
+        "path": "Mario"
+    },
+
+    "RightBigMario": {
+        "x": 209,
+        "y": 52,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "RightRunBigMario1": {
+        "x": 239,
+        "y": 52,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "RightRunBigMario2": {
+        "x": 270,
+        "y": 52,
+        "w": 14,
+        "h": 31,
+        "path": "Mario"
+    },
+
+    "RightRunBigMario3": {
+        "x": 299,
+        "y": 53,
+        "w": 16,
+        "h": 30,
+        "path": "Mario"
+    },
+
+    "LeftTurnBigMario": {
+        "x": 329,
+        "y": 52,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "RightJumpBigMario": {
+        "x": 359,
+        "y": 52,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "RightCrouchBigMario": {
+        "x": 389,
+        "y": 57,
+        "w": 16,
+        "h": 22,
+        "path": "Mario"
+    },
+
+    "LeftFireMario": {
+        "x": 180,
+        "y": 122,
+        "w": 13,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "LeftRunFireMario1": {
+        "x": 152,
+        "y": 122,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "LeftRunFireMario2": {
+        "x": 128,
+        "y": 122,
+        "w": 14,
+        "h": 31,
+        "path": "Mario"
+    },
+
+    "LeftRunFireMario3": {
+        "x": 102,
+        "y": 123,
+        "w": 16,
+        "h": 30,
+        "path": "Mario"
+    },
+
+    "LeftThrowFireMario": {
+        "x": 77,
+        "y": 123,
+        "w": 16,
+        "h": 30,
+        "path": "Mario"
+    },
+
+    "RightTurnFireMario": {
+        "x": 52,
+        "y": 122,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "LeftJumpFireMario": {
+        "x": 27,
+        "y": 122,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "LeftCrouchFireMario": {
+        "x": 0,
+        "y": 127,
+        "w": 16,
+        "h": 22,
+        "path": "Mario"
+    },
+
+    "RightFireMario": {
+        "x": 209,
+        "y": 122,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "RightRunFireMario1": {
+        "x": 237,
+        "y": 122,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "RightRunFireMario2": {
+        "x": 263,
+        "y": 122,
+        "w": 14,
+        "h": 31,
+        "path": "Mario"
+    },
+
+    "RightRunFireMario3": {
+        "x": 287,
+        "y": 123,
+        "w": 16,
+        "h": 30,
+        "path": "Mario"
+    },
+
+    "RightThrowFireMario": {
+        "x": 312,
+        "y": 123,
+        "w": 16,
+        "h": 30,
+        "path": "Mario"
+    },
+
+    "LeftTurnFireMario": {
+        "x": 337,
+        "y": 122,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "RightJumpFireMario": {
+        "x": 362,
+        "y": 122,
+        "w": 16,
+        "h": 32,
+        "path": "Mario"
+    },
+
+    "RightCrouchFireMario": {
+        "x": 389,
+        "y": 127,
+        "w": 16,
+        "h": 22,
+        "path": "Mario"
+    },
+
+    "LeftGoomba": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Enemies/Goomba"
+    },
+
+    "RightGoomba": {
+        "x": 16,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Enemies/Goomba"
+    },
+
+    "FlatGoomba": {
+        "x": 32,
+        "y": 8,
+        "w": 16,
+        "h": 8,
+        "path": "Enemies/Goomba"
+    },
+
+    "LeftKoopa1": {
+        "x": 16,
+        "y": 1,
+        "w": 16,
+        "h": 23,
+        "path": "Enemies/Koopa"
+    },
+
+    "LeftKoopa2": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 24,
+        "path": "Enemies/Koopa"
+    },
+
+    "RightKoopa1": {
+        "x": 32,
+        "y": 1,
+        "w": 16,
+        "h": 23,
+        "path": "Enemies/Koopa"
+    },
+
+    "RightKoopa2": {
+        "x": 48,
+        "y": 1,
+        "w": 16,
+        "h": 24,
+        "path": "Enemies/Koopa"
+    },
+
+    "Shell1": {
+        "x": 0,
+        "y": 10,
+        "w": 16,
+        "h": 14,
+        "path": "Enemies/Shell"
+    },
+
+    "Shell2": {
+        "x": 16,
+        "y": 9,
+        "w": 16,
+        "h": 15,
+        "path": "Enemies/Shell"
+    },
+
+    "Mushroom": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Items"
+    },
+
+    "OneUp": {
+        "x": 16,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Items"
+    },
+
+    "Fireflower1": {
+        "x": 0,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Items"
+    },
+
+    "Fireflower2": {
+        "x": 16,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Items"
+    },
+
+    "Fireflower3": {
+        "x": 32,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Items"
+    },
+
+    "Fireflower4": {
+        "x": 48,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Items"
+    },
+
+    "Star1": {
+        "x": 1,
+        "y": 48,
+        "w": 14,
+        "h": 16,
+        "path": "Items"
+    },
+
+    "Star2": {
+        "x": 17,
+        "y": 48,
+        "w": 14,
+        "h": 16,
+        "path": "Items"
+    },
+
+    "Star3": {
+        "x": 33,
+        "y": 48,
+        "w": 14,
+        "h": 16,
+        "path": "Items"
+    },
+
+    "Star4": {
+        "x": 49,
+        "y": 48,
+        "w": 14,
+        "h": 16,
+        "path": "Items"
+    },
+
+    "SpinCoin1": {
+        "x": 4,
+        "y": 97,
+        "w": 8,
+        "h": 14,
+        "path": "Items"
+    },
+
+    "SpinCoin2": {
+        "x": 20,
+        "y": 97,
+        "w": 8,
+        "h": 14,
+        "path": "Items"
+    },
+
+    "SpinCoin3": {
+        "x": 36,
+        "y": 97,
+        "w": 8,
+        "h": 14,
+        "path": "Items"
+    },
+
+    "SpinCoin4": {
+        "x": 53,
+        "y": 97,
+        "w": 8,
+        "h": 14,
+        "path": "Items"
+    },
+
+    "UGCoin1": {
+        "x": 147,
+        "y": 82,
+        "w": 10,
+        "h": 14,
+        "path": "Items"
+    },
+
+    "UGCoin2": {
+        "x": 163,
+        "y": 82,
+        "w": 10,
+        "h": 14,
+        "path": "Items"
+    },
+
+    "UGCoin3": {
+        "x": 179,
+        "y": 82,
+        "w": 10,
+        "h": 14,
+        "path": "Items"
+    },
+
+    "UGCoin4": {
+        "x": 195,
+        "y": 82,
+        "w": 10,
+        "h": 14,
+        "path": "Items"
+    },
+
+    "Ground": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "Brick": {
+        "x": 16,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "BigBrick": {
+        "x": 32,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "Question1": {
+        "x": 48,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "Question2": {
+        "x": 64,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "Question3": {
+        "x": 80,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "Question4": {
+        "x": 96,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "FlagBall": {
+        "x": 112,
+        "y": 0,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "PipeL": {
+        "x": 0,
+        "y": 16,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "PipeR": {
+        "x": 16,
+        "y": 16,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "PipeU": {
+        "x": 32,
+        "y": 16,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "PipeD": {
+        "x": 32,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "TubeL": {
+        "x": 0,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "TubeR": {
+        "x": 16,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "TubeU": {
+        "x": 48,
+        "y": 16,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "TubeD": {
+        "x": 48,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "TubeXU": {
+        "x": 64,
+        "y": 16,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "TubeXD": {
+        "x": 64,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CloudUL": {
+        "x": 80,
+        "y": 16,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CloudUM": {
+        "x": 96,
+        "y": 16,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CloudUR": {
+        "x": 112,
+        "y": 16,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CloudDL": {
+        "x": 80,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CloudDM": {
+        "x": 96,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CloudDR": {
+        "x": 112,
+        "y": 32,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "HillL": {
+        "x": 0,
+        "y": 64,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "HillArtL": {
+        "x": 16,
+        "y": 64,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "HillM": {
+        "x": 32,
+        "y": 64,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "HillArtR": {
+        "x": 48,
+        "y": 64,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "HillR": {
+        "x": 64,
+        "y": 64,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "HillTop": {
+        "x": 0,
+        "y": 48,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "Flag": {
+        "x": 16,
+        "y": 48,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "FlagPole": {
+        "x": 32,
+        "y": 48,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "BrickFragL": {
+        "x": 48,
+        "y": 48,
+        "w": 8,
+        "h": 8,
+        "path": "Tiles"
+    },
+
+    "BrickFragR": {
+        "x": 56,
+        "y": 48,
+        "w": 8,
+        "h": 8,
+        "path": "Tiles"
+    },
+
+    "CastleWindowL": {
+        "x": 80,
+        "y": 48,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CastleWindowR": {
+        "x": 64,
+        "y": 48,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CastleBrick": {
+        "x": 80,
+        "y": 64,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CastleCrown1": {
+        "x": 96,
+        "y": 48,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CastleCrown2": {
+        "x": 96,
+        "y": 64,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CastleDoorU": {
+        "x": 112,
+        "y": 48,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    },
+
+    "CastleDoorD": {
+        "x": 112,
+        "y": 64,
+        "w": 16,
+        "h": 16,
+        "path": "Tiles"
+    }
+}

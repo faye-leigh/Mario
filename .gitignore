@@ -5,3 +5,7 @@ Mario/Content/obj/
 Mario/Content/bin/
 
 # Ignore the following files
+Mario/obj/Debug/net8.0/Mario.AssemblyInfo.cs
+Mario/obj/Debug/net8.0/Mario.AssemblyInfoInputs.cache
+Mario/obj/Debug/net8.0/Mario.assets.cache
+Mario/obj/Debug/net8.0/Mario.GeneratedMSBuildEditorConfig.editorconfig

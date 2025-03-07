@@ -1,4 +1,9 @@
-﻿using Microsoft.Xna.Framework;
+﻿using System.Collections.Generic;
+using Mario.ECS;
+using Mario.ECS.Components;
+using Mario.ECS.Systems;
+using Mario.Factories;
+using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
@@ -6,36 +11,53 @@ namespace Mario;
 
 public class Mario : Game
 {
-    private GraphicsDeviceManager _graphics;
-    private SpriteBatch _spriteBatch;
+    private GraphicsDeviceManager graphics;
+    private SpriteBatch spriteBatch;
+
+    private float windowScale;
+    private int windowWidth;
+    private int windowHeight;
+
+    private List<Entity> entities;
+    private RenderSystem renderSystem;
 
     public Mario()
     {
-        _graphics = new GraphicsDeviceManager(this);
+        graphics = new GraphicsDeviceManager(this);
         Content.RootDirectory = "Content";
         IsMouseVisible = true;
     }
 
     protected override void Initialize()
     {
-        // TODO: Add your initialization logic here
+        windowScale = 4f;
+        windowWidth = 256;
+        windowHeight = 240;
+
+        graphics.PreferredBackBufferWidth = (int)(windowWidth * windowScale);
+        graphics.PreferredBackBufferHeight = (int)(windowHeight * windowScale);
+        graphics.ApplyChanges();
+
+        entities = new List<Entity>();
 
         base.Initialize();
     }
 
     protected override void LoadContent()
     {
-        _spriteBatch = new SpriteBatch(GraphicsDevice);
+        spriteBatch = new SpriteBatch(GraphicsDevice);
+        renderSystem = new RenderSystem(spriteBatch, windowScale);
 
-        // TODO: use this.Content to load your game content here
+        var marioTexture = Content.Load<Texture2D>("Mario");
+        var marioFactory = new MarioFactory(marioTexture);
+        var player = marioFactory.CreateMario();
+        entities.Add(player);
     }
 
     protected override void Update(GameTime gameTime)
     {
         if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
             Exit();
-
-        // TODO: Add your update logic here
 
         base.Update(gameTime);
     }
@@ -44,7 +66,7 @@ public class Mario : Game
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
 
-        // TODO: Add your drawing code here
+        renderSystem.Draw(entities);
 
         base.Draw(gameTime);
     }

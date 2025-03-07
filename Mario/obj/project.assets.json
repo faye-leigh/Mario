@@ -243,11 +243,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/faye/dev/Mario/main/Mario/Mario/Mario.csproj",
+      "projectUniqueName": "/home/faye/dev/Mario/ecs/Mario/Mario/Mario.csproj",
       "projectName": "Mario",
-      "projectPath": "/home/faye/dev/Mario/main/Mario/Mario/Mario.csproj",
+      "projectPath": "/home/faye/dev/Mario/ecs/Mario/Mario/Mario.csproj",
       "packagesPath": "/home/faye/.nuget/packages/",
-      "outputPath": "/home/faye/dev/Mario/main/Mario/Mario/obj/",
+      "outputPath": "/home/faye/dev/Mario/ecs/Mario/Mario/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/faye/.nuget/NuGet/NuGet.Config"
